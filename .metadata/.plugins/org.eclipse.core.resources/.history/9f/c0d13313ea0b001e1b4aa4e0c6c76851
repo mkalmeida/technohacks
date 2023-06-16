@@ -1,0 +1,12 @@
+package com.proj.calculator;
+
+public static void main(String[] args) {
+	
+	ConfigCalculator add = new ConfigCalculator();
+	
+	add.menu();
+	
+}
+
+
+}

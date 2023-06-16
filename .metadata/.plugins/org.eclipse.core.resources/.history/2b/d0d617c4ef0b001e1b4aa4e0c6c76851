@@ -1,0 +1,14 @@
+package com.proj.calculator;
+
+public class CalculatorProjApplication {
+
+public static void main(String[] args) {
+	
+	CalcConfig calc = new CalcConfig();
+	
+	calc.menu();
+	
+
+}
+
+}

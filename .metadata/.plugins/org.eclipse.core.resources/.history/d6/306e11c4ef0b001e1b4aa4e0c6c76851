@@ -1,0 +1,68 @@
+package com.proj.calculator;
+
+import java.util.Scanner;
+
+public class CalcConfig {
+	char opt;
+	Double result = 0.0;
+	
+	Scanner input = new Scanner(System.in);
+	Double n, m;
+	boolean valid;
+	
+	public void menu() {
+		
+			 System.out.println("Digite um numero para começar");
+
+		
+			 while (valid == false) {
+				 n = input.nextDouble();
+				 result = n;
+				 opt= input.next().charAt(0);
+				 
+			 switch (opt) {
+			 case 'a':
+				 result = input.nextDouble();
+				 result = n + result;
+				 System.out.println("soma " +  result);	
+				 opt= input.next().charAt(0);
+				 menu();
+				 valid = true;
+			 case 's': 
+				 opt= input.next().charAt(0);
+				 m = input.nextDouble();
+				 result = result - m;
+				 System.out.println("sub " +  result);
+				 opt= input.next().charAt(0);
+				 menu();
+				 valid = true;
+			 case 'm':
+				 m = input.nextDouble();
+				 result = result * m;
+				 System.out.println("mult " +  result);
+				 opt= input.next().charAt(0);
+				 menu();
+				 valid = true;
+			 case 'd':
+				 m = input.nextDouble();
+				 result = result / m;
+				 System.out.println("div " +  result);	
+				 opt= input.next().charAt(0);
+				 menu();
+				 valid = true;
+			 case 'f':
+				 System.out.println("O resultado final é: " + result);
+				 valid = false;
+			default:
+				System.out.println("O resultado final é: " + result);
+				valid = false;
+			 }
+				 
+			 }
+			 }
+	
+	
+			
+	}
+	
+

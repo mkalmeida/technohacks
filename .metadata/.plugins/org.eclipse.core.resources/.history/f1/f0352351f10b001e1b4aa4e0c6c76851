@@ -1,0 +1,19 @@
+package com.proj.calculator;
+
+public class CalculatorProjApplication {
+
+public static void main(String[] args) {
+	
+	
+	 System.out.println("Digite um numero para começar");
+
+char opt = 0;
+	
+	CalcConfig calc = new CalcConfig();
+	
+	calc.menu(opt);
+	
+
+}
+
+}

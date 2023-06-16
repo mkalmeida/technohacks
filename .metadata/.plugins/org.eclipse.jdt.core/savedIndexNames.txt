@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+C:\Users\Admin\Desktop\SpringAdmin\TechnoHacks\.metadata\.plugins\org.eclipse.jdt.core
+467539595.index
+301425811.index
+1865797976.index
